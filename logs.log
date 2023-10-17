@@ -1,0 +1,685 @@
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-11T09:58:47.439Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-11T09:59:00.524Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-11T09:59:05.645Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-11T09:59:20.161Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-11T11:17:12.078Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-11T11:18:22.781Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T07:25:30.077Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T08:00:24.779Z'
+}
+{
+  message: 'ERROR LOG - Status: 404 - Message: No users found.',
+  level: 'error',
+  timestamp: '2023-10-12T08:06:24.462Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: data and salt arguments required',
+  level: 'error',
+  timestamp: '2023-10-12T08:06:29.807Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T08:07:04.144Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: data and salt arguments required',
+  level: 'error',
+  timestamp: '2023-10-12T08:08:14.943Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T08:10:43.900Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: data and salt arguments required',
+  level: 'error',
+  timestamp: '2023-10-12T08:11:09.399Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T08:12:25.856Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T08:12:47.281Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: data and salt arguments required',
+  level: 'error',
+  timestamp: '2023-10-12T08:12:55.930Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T08:14:34.062Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: data and salt arguments required',
+  level: 'error',
+  timestamp: '2023-10-12T08:14:39.231Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T08:15:01.279Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T08:15:37.471Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: data and salt arguments required',
+  level: 'error',
+  timestamp: '2023-10-12T08:15:38.530Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T08:15:53.512Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: data and salt arguments required',
+  level: 'error',
+  timestamp: '2023-10-12T08:15:58.574Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T08:17:22.796Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: data must be a string or Buffer and salt must either be a salt string or a number of rounds',
+  level: 'error',
+  timestamp: '2023-10-12T08:17:27.097Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T08:19:44.066Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: UserDetails validation failed: password: Cast to Number failed for value "$2b$10$imf5htFKuv6s94NiAWDme.3tX7mApNJG9UfgbiaEcAnjYxcir2Np6" (type string) at path "password"',
+  level: 'error',
+  timestamp: '2023-10-12T08:19:56.449Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T08:20:43.354Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T08:21:03.044Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T08:21:26.288Z'
+}
+{
+  message: 'USER LOG - Status: 201 - Message: User created successfully',
+  level: 'info',
+  timestamp: '2023-10-12T08:21:34.969Z'
+}
+{
+  message: 'GET USERS LOG - Status: 200 - Message: Get all users executed',
+  level: 'info',
+  timestamp: '2023-10-12T08:25:47.653Z'
+}
+{
+  message: 'USER LOG - Status: 201 - Message: User created successfully',
+  level: 'info',
+  timestamp: '2023-10-12T09:51:45.666Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: E11000 duplicate key error collection: Users.userdetails index: username_1 dup key: { username: "Musabhatti9" }',
+  level: 'error',
+  timestamp: '2023-10-12T09:56:49.589Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T10:01:59.185Z'
+}
+{
+  message: 'USER LOG - Status: 201 - Message: User created successfully',
+  level: 'info',
+  timestamp: '2023-10-12T10:02:04.948Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T10:05:17.016Z'
+}
+{
+  message: 'USER LOG - Status: 201 - Message: User created successfully',
+  level: 'info',
+  timestamp: '2023-10-12T10:05:21.958Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: E11000 duplicate key error collection: Users.userdetails index: username_1 dup key: { username: "Musabhatti9" }',
+  level: 'error',
+  timestamp: '2023-10-12T10:05:26.427Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T10:05:55.631Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T10:06:56.262Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: E11000 duplicate key error collection: Users.userdetails index: username_1 dup key: { username: "Musabhatti9" }',
+  level: 'error',
+  timestamp: '2023-10-12T10:07:11.189Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T10:07:38.194Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T10:09:55.900Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: E11000 duplicate key error collection: Users.userdetails index: username_1 dup key: { username: "Musabhatti9" }',
+  level: 'error',
+  timestamp: '2023-10-12T10:10:02.351Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: E11000 duplicate key error collection: Users.userdetails index: username_1 dup key: { username: "Musabhatti9" }',
+  level: 'error',
+  timestamp: '2023-10-12T10:10:20.279Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T10:10:41.666Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: E11000 duplicate key error collection: Users.userdetails index: username_1 dup key: { username: "Musabhatti9" }',
+  level: 'error',
+  timestamp: '2023-10-12T10:10:43.822Z'
+}
+{
+  message: 'ERROR LOG - Status: 404 - Message: No users found.',
+  level: 'error',
+  timestamp: '2023-10-12T10:20:37.903Z'
+}
+{
+  message: 'ERROR LOG - Status: 404 - Message: No users found.',
+  level: 'error',
+  timestamp: '2023-10-12T10:20:45.364Z'
+}
+{
+  message: 'ERROR LOG - Status: 404 - Message: No users found.',
+  level: 'error',
+  timestamp: '2023-10-12T10:21:09.691Z'
+}
+{
+  message: 'ERROR LOG - Status: 404 - Message: No users found.',
+  level: 'error',
+  timestamp: '2023-10-12T10:21:20.957Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T10:25:19.539Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T10:26:20.781Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T10:26:34.368Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T10:29:54.373Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T10:31:29.365Z'
+}
+{
+  message: 'USER LOG - Status: 201 - Message: User created successfully',
+  level: 'info',
+  timestamp: '2023-10-12T10:31:31.935Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: E11000 duplicate key error collection: doneWithIt.users index: email_1 dup key: { email: "razinasir07@gmail.com" }',
+  level: 'error',
+  timestamp: '2023-10-12T10:32:18.455Z'
+}
+{
+  message: 'USER LOG - Status: 201 - Message: User created successfully',
+  level: 'info',
+  timestamp: '2023-10-12T10:32:33.303Z'
+}
+{
+  message: 'USER LOG - Status: 201 - Message: User created successfully',
+  level: 'info',
+  timestamp: '2023-10-12T10:50:10.131Z'
+}
+{
+  message: 'USER LOG - Status: 201 - Message: User created successfully',
+  level: 'info',
+  timestamp: '2023-10-12T10:52:03.998Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T12:14:27.811Z'
+}
+{
+  message: 'USER LOG - Status: 201 - Message: User created successfully',
+  level: 'info',
+  timestamp: '2023-10-12T12:19:19.755Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: E11000 duplicate key error collection: doneWithIt.users index: email_1 dup key: { email: "new@gmail.com" }',
+  level: 'error',
+  timestamp: '2023-10-12T12:21:28.178Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: E11000 duplicate key error collection: doneWithIt.users index: email_1 dup key: { email: "new@gmail.com" }',
+  level: 'error',
+  timestamp: '2023-10-12T12:22:13.086Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: E11000 duplicate key error collection: doneWithIt.users index: email_1 dup key: { email: "new@gmail.com" }',
+  level: 'error',
+  timestamp: '2023-10-12T12:22:55.909Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: E11000 duplicate key error collection: doneWithIt.users index: email_1 dup key: { email: "new@gmail.com" }',
+  level: 'error',
+  timestamp: '2023-10-12T12:23:08.225Z'
+}
+{
+  message: 'USER LOG - Status: 201 - Message: User created successfully',
+  level: 'info',
+  timestamp: '2023-10-12T12:24:02.353Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: E11000 duplicate key error collection: doneWithIt.users index: email_1 dup key: { email: "new1@gmail.com" }',
+  level: 'error',
+  timestamp: '2023-10-12T12:24:29.888Z'
+}
+{
+  message: 'USER LOG - Status: 201 - Message: User created successfully',
+  level: 'info',
+  timestamp: '2023-10-12T12:24:35.892Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T12:34:07.869Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T12:34:29.412Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T12:34:35.899Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T12:36:37.850Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T12:37:37.466Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T12:37:44.308Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T12:37:56.209Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T12:38:23.945Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T12:38:48.638Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T12:38:52.638Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T12:39:47.866Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T12:45:47.200Z'
+}
+{
+  message: 'USER LOG - Status: 201 - Message: User created successfully',
+  level: 'info',
+  timestamp: '2023-10-12T12:46:01.516Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T12:48:53.926Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T12:49:58.119Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T12:50:17.285Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T12:50:58.515Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T12:51:45.397Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T13:06:32.116Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T13:28:24.421Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-12T13:29:52.894Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-13T06:42:38.019Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-13T09:58:36.143Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T12:23:51.706Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T12:24:23.733Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T12:24:35.583Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T12:24:41.872Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T12:27:06.371Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T12:27:23.236Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T12:27:45.570Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T12:35:50.900Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T12:39:46.973Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T12:40:47.339Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T12:40:53.534Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: user validation failed: password: Path `password` is required.',
+  level: 'error',
+  timestamp: '2023-10-16T13:03:12.151Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T13:04:40.854Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T13:04:45.140Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T13:05:29.119Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T13:05:50.802Z'
+}
+{
+  message: 'Contact LOG - Status: 201 - Message: Contact created successfully',
+  level: 'info',
+  timestamp: '2023-10-16T13:05:52.617Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: E11000 duplicate key error collection: doneWithIt.contacts index: firstname_1 dup key: { firstname: "Razi" }',
+  level: 'error',
+  timestamp: '2023-10-16T13:06:10.583Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: E11000 duplicate key error collection: doneWithIt.contacts index: firstname_1 dup key: { firstname: "Razi" }',
+  level: 'error',
+  timestamp: '2023-10-16T13:06:55.200Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T13:07:25.447Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: E11000 duplicate key error collection: doneWithIt.contacts index: firstname_1 dup key: { firstname: "Razi" }',
+  level: 'error',
+  timestamp: '2023-10-16T13:07:27.214Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T13:07:43.388Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: E11000 duplicate key error collection: doneWithIt.contacts index: firstname_1 dup key: { firstname: "Razi" }',
+  level: 'error',
+  timestamp: '2023-10-16T13:07:45.760Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T13:09:59.263Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: E11000 duplicate key error collection: doneWithIt.contacts index: firstname_1 dup key: { firstname: "Razi" }',
+  level: 'error',
+  timestamp: '2023-10-16T13:10:01.189Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T13:13:21.386Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T13:14:35.024Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T13:14:59.201Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T13:15:40.117Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: E11000 duplicate key error collection: doneWithIt.contacts index: firstname_1 dup key: { firstname: "Razi" }',
+  level: 'error',
+  timestamp: '2023-10-16T13:15:42.107Z'
+}
+{
+  message: 'Contact LOG - Status: 201 - Message: Contact created successfully',
+  level: 'info',
+  timestamp: '2023-10-16T13:18:03.471Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T13:20:35.373Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T13:20:43.004Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T13:21:00.705Z'
+}
+{
+  message: 'GET Contacts LOG - Status: 200 - Message: Get all Contacts executed',
+  level: 'info',
+  timestamp: '2023-10-16T13:21:05.088Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-16T13:21:39.407Z'
+}
+{
+  message: 'Contact LOG - Status: 201 - Message: Contact created successfully',
+  level: 'info',
+  timestamp: '2023-10-16T13:50:33.828Z'
+}
+{
+  message: 'Contact LOG - Status: 201 - Message: Contact created successfully',
+  level: 'info',
+  timestamp: '2023-10-16T13:54:30.160Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: E11000 duplicate key error collection: doneWithIt.contacts index: firstname_1 dup key: { firstname: "Khubaib" }',
+  level: 'error',
+  timestamp: '2023-10-16T13:55:10.786Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: E11000 duplicate key error collection: doneWithIt.contacts index: firstname_1 dup key: { firstname: "Khubaib" }',
+  level: 'error',
+  timestamp: '2023-10-16T13:56:35.210Z'
+}
+{
+  message: 'Contact LOG - Status: 201 - Message: Contact created successfully',
+  level: 'info',
+  timestamp: '2023-10-16T13:57:04.221Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: E11000 duplicate key error collection: doneWithIt.contacts index: firstname_1 dup key: { firstname: "Khubaib 1" }',
+  level: 'error',
+  timestamp: '2023-10-16T13:57:18.493Z'
+}
