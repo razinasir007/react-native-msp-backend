@@ -8,7 +8,7 @@ const {
   SALT_ROUNDS,
 } = require("../../config");
 const Contact = require("../../models/contacts");
-const bcrypt = require("bcrypt");
+const stripe = require('stripe')('sk_test_51O2U89GwK3f7CfwDJYHbVO00JpanLIDjsiuFjPUb1GUIVY1yQBhYAfJ53TQjWHDnmpxm1YojFsmMdTtsKkd3CuK300ov0rDXWR')
 const { logger } = require("../../logger");
 
 const AddContactController = async (req, res) => {
@@ -23,7 +23,12 @@ const AddContactController = async (req, res) => {
       });
     }
     const { body } = req;
-   
+    const stripeCustomer = await stripe.customers.create({
+      email: body.email,
+      name: `${body.firstname} ${body.lastname}`
+
+    })
+
     const newContactDetails = await Contact.create({
       firstname: body.firstname,
       lastname: body.lastname,
@@ -31,15 +36,21 @@ const AddContactController = async (req, res) => {
       phonenumber: body.phonenumber,
       mailaddress: body.mailaddress,
       billingaddress: body.billingaddress,
+      stripeCustomerId: stripeCustomer.id
     });
 
     if (newContactDetails) {
       logger.info(
         `Contact LOG - Status: ${CREATE_STATUS_CODE} - Message: Contact created successfully`
       );
+   
+      console.log("stripe customerr", stripeCustomer)
       return res
         .status(CREATE_STATUS_CODE)
-        .json({ message: "Contact created successfully", data: newContactDetails });
+        .json({ message: "Contact created successfully", data: newContactDetails, stripeCustomer });
+
+
+
     } else {
       return res.send({
         status: SERVER_ERROR_STATUS_CODE,
@@ -90,5 +101,65 @@ const GetContactsController = async (req, res) => {
       .json({ message: error.message, errors: error?.errors });
   }
 };
+const DeleteContact = async (req, res) => {
+  try {
+    // exclude password, version, and createdAt timestamp
+    const { id } = req.params
 
-module.exports = { AddContactController, GetContactsController };
+    const contact = await Contact.findByIdAndRemove(id);
+
+
+    if (!contact) {
+      logger.info(
+        `DELETE Contacts LOG - Status: ${NOT_FOUND_STATUS_CODE} - Message: Delete Contact Does Not Exists`
+      );
+      return res
+        .status(NOT_FOUND_STATUS_CODE)
+        .json({ message: "Contact Does Not Exists" });
+    }
+    return res
+      .status(SUCCESS_STATUS_CODE)
+      .json({ message: "Contact Deleted successfully" });
+
+
+  } catch (error) {
+    logger.error(
+      `ERROR LOG - Status: ${error.status} - Message: ${error.message}`
+    );
+    return res
+      .status(error.status)
+      .json({ message: error.message, errors: error?.errors });
+  }
+};
+const UpdateContact = async (req, res) => {
+  try {
+    // exclude password, version, and createdAt timestamp
+    const { id } = req.params
+
+    const contact = await Contact.findByIdAndUpdate(id, req.body);
+
+
+    if (!contact) {
+      logger.info(
+        `UPDATE Contacts LOG - Status: ${NOT_FOUND_STATUS_CODE} - Message:  Contact Does Not Exists`
+      );
+      return res
+        .status(NOT_FOUND_STATUS_CODE)
+        .json({ message: "Contact Does Not Exists" });
+    }
+    return res
+      .status(SUCCESS_STATUS_CODE)
+      .json({ message: "Contact Updated successfully", data: contact });
+
+
+  } catch (error) {
+    logger.error(
+      `ERROR LOG - Status: ${error.status} - Message: ${error.message}`
+    );
+    return res
+      .status(error.status)
+      .json({ message: error.message, errors: error?.errors });
+  }
+};
+
+module.exports = { AddContactController, GetContactsController, DeleteContact, UpdateContact };

@@ -24,6 +24,9 @@ const ContactDetailsSchema = new mongoose.Schema({
   billingaddress: {
     type: String,
   },
+  stripeCustomerId: {
+    type: String,
+  },
 });
 
 // ContactDetailsSchema.pre("save", function (next) {

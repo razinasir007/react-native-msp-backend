@@ -18,6 +18,8 @@
     "express-validator": "^7.0.1",
     "mongoose": "^7.6.1",
     "nodemon": "^3.0.1",
+    "socket.io": "^4.7.2",
+    "stripe": "^14.1.0",
     "uuid": "^9.0.1",
     "winston": "^3.11.0"
   }
