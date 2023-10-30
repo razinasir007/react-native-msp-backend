@@ -2723,3 +2723,108 @@
   level: 'info',
   timestamp: '2023-10-26T06:16:02.740Z'
 }
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-26T07:02:02.555Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-26T07:33:54.739Z'
+}
+{
+  message: 'GET Contacts LOG - Status: 200 - Message: Get all Contacts executed',
+  level: 'info',
+  timestamp: '2023-10-26T07:56:33.511Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-26T09:46:38.870Z'
+}
+{
+  message: 'GET Contacts LOG - Status: 200 - Message: Get all Contacts executed',
+  level: 'info',
+  timestamp: '2023-10-26T10:17:55.667Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-26T10:36:37.893Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-26T10:36:56.462Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-26T10:37:14.715Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-26T10:38:48.932Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-26T10:39:04.863Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-26T10:40:34.080Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-26T10:40:55.550Z'
+}
+{
+  message: 'GET Contacts LOG - Status: 200 - Message: Get all Contacts executed',
+  level: 'info',
+  timestamp: '2023-10-26T11:20:06.179Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-27T10:02:49.638Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-30T07:25:23.308Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: An error occurred with our connection to Stripe. Request was retried 1 times.',
+  level: 'error',
+  timestamp: '2023-10-30T07:28:18.187Z'
+}
+{
+  message: 'GET Contacts LOG - Status: 200 - Message: Get all Contacts executed',
+  level: 'info',
+  timestamp: '2023-10-30T07:30:39.524Z'
+}
+{
+  message: 'ERROR LOG - Status: undefined - Message: E11000 duplicate key error collection: doneWithIt.users index: email_1 dup key: { email: "razinasir07@gmail.com" }',
+  level: 'error',
+  timestamp: '2023-10-30T07:36:11.330Z'
+}
+{
+  message: 'USER LOG - Status: 201 - Message: User created successfully',
+  level: 'info',
+  timestamp: '2023-10-30T07:36:18.924Z'
+}
+{
+  message: 'GET Contacts LOG - Status: 200 - Message: Get all Contacts executed',
+  level: 'info',
+  timestamp: '2023-10-30T07:37:07.913Z'
+}
+{
+  message: 'MONGO DB CONNECTED',
+  level: 'info',
+  timestamp: '2023-10-30T09:44:42.524Z'
+}
