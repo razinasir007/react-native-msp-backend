@@ -88,14 +88,6 @@ This repository contains the backend services for **MyStudio Pro**, a comprehens
 
 ---
 
-## 🖼️ System Architecture
-
-![MyStudio Pro Backend Architecture](./images/mystudio-backend-architecture.png)
-
-*(Add your diagram at `./images/mystudio-backend-architecture.png` or link to hosted content.)*
-
----
-
 ## 🚦 Deployment & Setup
 
 1️⃣ **Clone the Repository:**
